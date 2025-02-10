@@ -13,7 +13,7 @@ const AppWrapper = () => {
   const [isAuthenticated, setIsAuthenticated] = useState();
   const [user, setUser] = useState();
 
-  const API = "http://localhost:4000";
+  const API = "https://deploy-auth-backend.onrender.com";
 
   return (
     <Context.Provider
