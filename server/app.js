@@ -13,8 +13,8 @@ config({ path: "./config.env" });
 // ! connect front-end & back-end
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: "https://deploy-auth-frontend.onrender.com",
+    methods: ["GET", "POST", "PUT", "DELETE","HEAD"],
     credentials: true,
   })
 );
