@@ -1,0 +1,38 @@
+1. create app and server page
+
+2. create db connection
+
+3. Define Error middleware
+
+4. create userModel 
+
+5. create catchAsyncError middleware
+
+6.  create userController
+
+7. create User data
+
+8. generateVerificationCode at user model
+
+9. sendVerification method
+9.1 generateEmailTemplate
+
+9.2. sendEmail logic
+ 9.3 create utils folder and then create sendEmail.js file inside it
+
+ 10. verify OTP
+
+ 11. send Token logic  and create jwt Token
+ 12. create new route /otp-verification
+
+ 13. login
+ 14.logout
+ 15.forgot password
+ 16.reset password
+
+ 17.automation --> remove unverified token using node-cron(scheduling)
+
+
+ to be continued:---->  3:32:43 
+
+ 
